@@ -14,6 +14,7 @@ bash 'install' do
   code <<-EOH
     git clone https://github.com/keithf4/pg_partman.git
     cd pg_partman
+    git checkout v1.7.2
     make
     make install
   EOH
